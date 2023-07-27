@@ -1,0 +1,80 @@
+*{
+    background-image: url('https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.pexels.com%2Fsearch%2Fweather%2F&psig=AOvVaw2x5_gd1ujcxOZtu8X8n9zz&ust=1681323095833000&source=images&cd=vfe&ved=0CBEQjRxqFwoTCNC_6t62ov4CFQAAAAAdAAAAABAE');
+  }
+  body {
+    font-family: "Arial", sans-serif;
+    background: linear-gradient(135deg, #007bff, #00bfff);
+    color: #333;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 30px;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+  }
+  
+  h1 {
+    font-size: 28px;
+    color: #fff;
+    margin-bottom: 20px;
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  input[type="text"] {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  button {
+    padding: 12px;
+    background-color: #fff;
+    color: #007bff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+  }
+  
+  button:hover {
+    background-color: #f5f5f5;
+  }
+  
+  #weatherInfo {
+    margin-top: 30px;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Additional Styles */
+  
+  /* Make the form elements more interactive on focus */
+  input[type="text"]:focus {
+    outline: none;
+    border-color: #007bff;
+    box-shadow: 0 0 4px rgba(0, 123, 255, 0.5);
+  }
+  
+  /* Center the button */
+  button {
+    align-self: center;
+  }
+  
+  /* Add some margin at the bottom of the page */
+  body {
+    margin-bottom: 30px;
+  }
+  
